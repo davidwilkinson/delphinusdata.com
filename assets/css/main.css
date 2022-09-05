@@ -25,6 +25,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -39,6 +41,10 @@ ol, ul {
 
 blockquote, q {
 	quotes: none;
+}
+
+img.w3-round-xxlarge {
+	margin: 0 0 0 30px
 }
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -277,6 +283,11 @@ input, select, textarea {
 
 	.align-left {
 		text-align: left;
+	}
+
+	.align-offleft {
+		text-align: left;
+		padding: 0 0 0 30px;
 	}
 
 	.align-center {
@@ -2944,8 +2955,27 @@ input, select, textarea {
 			margin-top: -0.75rem;
 		}
 
+		/*header.major {*/
+		/*	margin: 0 0 4rem 0;*/
+		/*	text-align: center;*/
+		/*}*/
+
+		/*header.major > :last-child {*/
+		/*	margin-bottom: 0;*/
+		/*}*/
+
+		/*header.major > p {*/
+		/*	margin-top: 0;*/
+		/*	text-align: center;*/
+		/*}*/
+
+		header.minor > .date {
+			font-size: 1.1rem;
+			margin: 0 0 1 0;
+		}
+
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 4rem 0 4rem 0;
 			text-align: center;
 		}
 
@@ -2959,8 +2989,8 @@ input, select, textarea {
 			}
 
 			header.major > .date {
-				font-size: 1rem;
-				margin: 0 0 4rem 0;
+				font-size: 1.1rem;
+				margin: 4rem 0 4rem 0;
 			}
 
 				header.major > .date:before, header.major > .date:after {
@@ -3285,7 +3315,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 0rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3310,7 +3340,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 70vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3398,7 +3428,7 @@ input, select, textarea {
 		}
 
 		#intro + #header {
-			margin-top: -20rem;
+			margin-top: -15rem;
 		}
 
 			#intro + #header .logo {
@@ -3410,28 +3440,28 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
-		#intro.hidden {
-			pointer-events: none;
-			-moz-transform: translateY(2rem);
-			-webkit-transform: translateY(2rem);
-			-ms-transform: translateY(2rem);
-			transform: translateY(2rem);
-			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-			opacity: 0;
-			visibility: hidden;
-		}
+		/*#intro.hidden {*/
+		/*	pointer-events: none;*/
+		/*	-moz-transform: translateY(2rem);*/
+		/*	-webkit-transform: translateY(2rem);*/
+		/*	-ms-transform: translateY(2rem);*/
+		/*	transform: translateY(2rem);*/
+		/*	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;*/
+		/*	-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;*/
+		/*	-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;*/
+		/*	transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;*/
+		/*	opacity: 0;*/
+		/*	visibility: hidden;*/
+		/*}*/
 
-			#intro.hidden + #header .logo {
-				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
-				-ms-transform: translateY(0);
-				transform: translateY(0);
-				opacity: 1;
-				visibility: visible;
-			}
+		/*	#intro.hidden + #header .logo {*/
+		/*		-moz-transform: translateY(0);*/
+		/*		-webkit-transform: translateY(0);*/
+		/*		-ms-transform: translateY(0);*/
+		/*		transform: translateY(0);*/
+		/*		opacity: 1;*/
+		/*		visibility: visible;*/
+		/*	}*/
 
 		body.is-preload #intro {
 			-moz-transform: translateY(2rem);
@@ -3449,11 +3479,11 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				padding: 4rem 4rem 6rem 4rem ;
+				min-height: auto;
 			}
 
 				#intro p br {
@@ -3461,7 +3491,7 @@ input, select, textarea {
 				}
 
 				#intro + #header {
-					margin-top: -14rem;
+					margin-top: 0rem;
 				}
 
 		}
@@ -3470,13 +3500,13 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: auto;
 			}
 
 				#intro h1 {
 					font-size: 3.25rem;
 					line-height: 1.1;
-					margin-bottom: 1rem;
+					margin-bottom: 0rem;
 				}
 
 				#intro p {
@@ -3779,11 +3809,11 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 8rem 2rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
-				margin-top: -2rem;
+				margin-top: -5rem;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
@@ -3799,7 +3829,7 @@ input, select, textarea {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 4rem 4rem 2rem 4rem ;
 				}
 
 			}
@@ -3857,7 +3887,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 3rem 4rem 4rem 4rem;
 				width: 50%;
 			}
 
