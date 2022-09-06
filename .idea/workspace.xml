@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e827b6d-1628-4b3c-8cd4-5992cb590d15" name="Changes" comment="" />
+    <list default="true" id="3e827b6d-1628-4b3c-8cd4-5992cb590d15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/delphinus_constellation_mid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/delphinus_constellation_tall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/delphinus_constellation_verytall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/delphinus_constellation_wide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,14 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "two.files.diff.last.used.file": "/Users/davidwilkinson/Downloads/html5up-massively(1)/assets/css/main.css"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -54,7 +63,7 @@
       <workItem from="1661778964441" duration="2429000" />
       <workItem from="1661784403691" duration="4000" />
       <workItem from="1662130479809" duration="4575000" />
-      <workItem from="1662402000287" duration="3382000" />
+      <workItem from="1662402000287" duration="6529000" />
     </task>
     <servers />
   </component>

@@ -25,8 +25,6 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -43,14 +41,14 @@ blockquote, q {
 	quotes: none;
 }
 
-img.w3-round-xxlarge {
-	margin: 0 0 0 30px
-}
-
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
+
+img.w3-round-xxlarge {
+	margin: 0 0 0 30px
+}
 
 table {
 	border-collapse: collapse;
@@ -2955,27 +2953,8 @@ input, select, textarea {
 			margin-top: -0.75rem;
 		}
 
-		/*header.major {*/
-		/*	margin: 0 0 4rem 0;*/
-		/*	text-align: center;*/
-		/*}*/
-
-		/*header.major > :last-child {*/
-		/*	margin-bottom: 0;*/
-		/*}*/
-
-		/*header.major > p {*/
-		/*	margin-top: 0;*/
-		/*	text-align: center;*/
-		/*}*/
-
-		header.minor > .date {
-			font-size: 1.1rem;
-			margin: 0 0 1 0;
-		}
-
 		header.major {
-			margin: 4rem 0 4rem 0;
+			margin: 0 0 4rem 0;
 			text-align: center;
 		}
 
@@ -3264,9 +3243,9 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/delphinus_constellation_verytall.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/delphinus_constellation_verytall.png");
 			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
+			background-position: top center,								top center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
@@ -3315,7 +3294,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 0rem 4rem 6rem 4rem ;
+		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3340,7 +3319,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 70vh;
+		min-height: 100vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3428,7 +3407,7 @@ input, select, textarea {
 		}
 
 		#intro + #header {
-			margin-top: -15rem;
+			margin-top: -20rem;
 		}
 
 			#intro + #header .logo {
@@ -3440,28 +3419,28 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
-		/*#intro.hidden {*/
-		/*	pointer-events: none;*/
-		/*	-moz-transform: translateY(2rem);*/
-		/*	-webkit-transform: translateY(2rem);*/
-		/*	-ms-transform: translateY(2rem);*/
-		/*	transform: translateY(2rem);*/
-		/*	-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;*/
-		/*	-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;*/
-		/*	-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;*/
-		/*	transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;*/
-		/*	opacity: 0;*/
-		/*	visibility: hidden;*/
-		/*}*/
+		#intro.hidden {
+			pointer-events: none;
+			-moz-transform: translateY(2rem);
+			-webkit-transform: translateY(2rem);
+			-ms-transform: translateY(2rem);
+			transform: translateY(2rem);
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			opacity: 0;
+			visibility: hidden;
+		}
 
-		/*	#intro.hidden + #header .logo {*/
-		/*		-moz-transform: translateY(0);*/
-		/*		-webkit-transform: translateY(0);*/
-		/*		-ms-transform: translateY(0);*/
-		/*		transform: translateY(0);*/
-		/*		opacity: 1;*/
-		/*		visibility: visible;*/
-		/*	}*/
+			#intro.hidden + #header .logo {
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+				visibility: visible;
+			}
 
 		body.is-preload #intro {
 			-moz-transform: translateY(2rem);
@@ -3479,11 +3458,11 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen {
+		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 6rem 4rem ;
-				min-height: auto;
+				padding: 4rem 4rem 2rem 4rem ;
+				min-height: 90vh;
 			}
 
 				#intro p br {
@@ -3491,7 +3470,7 @@ input, select, textarea {
 				}
 
 				#intro + #header {
-					margin-top: 0rem;
+					margin-top: -14rem;
 				}
 
 		}
@@ -3500,13 +3479,13 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: auto;
+				min-height: 80vh;
 			}
 
 				#intro h1 {
 					font-size: 3.25rem;
 					line-height: 1.1;
-					margin-bottom: 0rem;
+					margin-bottom: 1rem;
 				}
 
 				#intro p {
