@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3e827b6d-1628-4b3c-8cd4-5992cb590d15" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -15,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_calendar.google.com_calendar_scheduling-button-script.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="inventum-stage" />
@@ -34,7 +40,9 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "two.files.diff.last.used.file": "/Users/davidwilkinson/Downloads/html5up-massively(1)/assets/css/main.css",
     "vue.rearranger.settings.migration": "true"
@@ -62,7 +70,7 @@
       <workItem from="1662402000287" duration="12804000" />
       <workItem from="1662635833770" duration="170000" />
       <workItem from="1662740135535" duration="5000" />
-      <workItem from="1678229849940" duration="78000" />
+      <workItem from="1678229849940" duration="1344000" />
     </task>
     <servers />
   </component>
