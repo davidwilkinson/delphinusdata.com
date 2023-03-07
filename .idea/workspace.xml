@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e827b6d-1628-4b3c-8cd4-5992cb590d15" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "two.files.diff.last.used.file": "/Users/davidwilkinson/Downloads/html5up-massively(1)/assets/css/main.css"
+    "two.files.diff.last.used.file": "/Users/davidwilkinson/Downloads/html5up-massively(1)/assets/css/main.css",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,7 +59,10 @@
       <workItem from="1661778964441" duration="2429000" />
       <workItem from="1661784403691" duration="4000" />
       <workItem from="1662130479809" duration="4575000" />
-      <workItem from="1662402000287" duration="10863000" />
+      <workItem from="1662402000287" duration="12804000" />
+      <workItem from="1662635833770" duration="170000" />
+      <workItem from="1662740135535" duration="5000" />
+      <workItem from="1678229849940" duration="78000" />
     </task>
     <servers />
   </component>
