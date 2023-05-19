@@ -2,6 +2,10 @@
 
 Delphinus Data Ltd. is a data science consultancy based in the UK.
 
+For security correspondence, please contact security@delphinusdata.com.
+
+For anything else, please contact hello@delphinusdata.com.
+
 ```
 Credits:
     HTML Theme: 
