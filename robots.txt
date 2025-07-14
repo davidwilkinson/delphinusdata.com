@@ -7,6 +7,8 @@ Disallow: /venv/
 Disallow: /.idea/
 Disallow: /.git/
 Disallow: /*.md$
+Disallow: /MANUAL_TODO_LIST.md
+Disallow: /PERFORMANCE_GUIDE.md
 
 # Allow important pages
 Allow: /
