@@ -1,2 +1,20 @@
 User-agent: *
 Disallow: /README.txt
+Disallow: /.htaccess
+Disallow: /_headers
+Disallow: /assets/elements.html
+Disallow: /venv/
+Disallow: /.idea/
+Disallow: /.git/
+Disallow: /*.md$
+
+# Allow important pages
+Allow: /
+Allow: /index.html
+Allow: /aboutus.html
+Allow: /contact.html
+Allow: /privacy.html
+Allow: /404.html
+
+# Sitemap location
+Sitemap: https://delphinusdata.com/sitemap.xml
