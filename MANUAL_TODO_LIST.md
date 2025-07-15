@@ -3,15 +3,6 @@
 
 ## 🔥 **CRITICAL - Must Do First**
 
-### 1. Set Up Google Analytics
-**Status**: ❌ **REQUIRED**
-- [ ] Create Google Analytics 4 account at https://analytics.google.com
-- [ ] Create a new GA4 property for delphinusdata.com
-- [ ] Get your Measurement ID (format: G-XXXXXXXXXX)
-- [ ] Replace `GA_MEASUREMENT_ID` in centralized analytics file:
-  - `assets/js/analytics.js` (line 3) - **Only file to update!**
-- [ ] Test Google Analytics is working (check Real-time reports)
-
 ### 2. Test Website Functionality
 **Status**: ❌ **REQUIRED**
 - [ ] Test all pages load correctly
@@ -22,6 +13,7 @@
 - [ ] Test 404 page (visit a non-existent URL)
 - [ ] Test on mobile devices
 - [ ] Test accessibility with screen reader or keyboard navigation
+- [ ] Test Google Analytics is working (check Real-time reports)
 
 ## 🚀 **HIGH PRIORITY - Recommended Soon**
 
