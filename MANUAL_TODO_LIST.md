@@ -8,12 +8,8 @@
 - [ ] Create Google Analytics 4 account at https://analytics.google.com
 - [ ] Create a new GA4 property for delphinusdata.com
 - [ ] Get your Measurement ID (format: G-XXXXXXXXXX)
-- [ ] Replace `GA_MEASUREMENT_ID` in ALL files:
-  - `index.html` (lines ~47 and ~51)
-  - `contact.html` (lines ~31 and ~35)
-  - `aboutus.html` (lines ~31 and ~35)
-  - `privacy.html` (lines ~31 and ~35)
-  - `404.html` (lines ~18 and ~22)
+- [ ] Replace `GA_MEASUREMENT_ID` in centralized analytics file:
+  - `assets/js/analytics.js` (line 3) - **Only file to update!**
 - [ ] Test Google Analytics is working (check Real-time reports)
 
 ### 2. Test Website Functionality
