@@ -41,15 +41,16 @@
 		<!-- Optimized Font Loading -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+		<noscript><link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet"></noscript>
 		
 		<style>
 			/* Critical CSS - inline for faster initial render */
 			*,*:before,*:after{box-sizing:border-box}
 			html{font-size:16pt}
-			body{background-color:#1e252d;color:#212931;font-family:"Merriweather",Georgia,serif;font-weight:300;font-size:1rem;line-height:2.375;margin:0;padding:0}
+			body{background-color:#1e252d;color:#212931;font-family:Georgia,serif;font-weight:300;font-size:1rem;line-height:2.375;margin:0;padding:0}
 			#intro{color:#fff;padding:8rem 4rem 6rem 4rem;display:flex;flex-direction:column;justify-content:flex-end;text-align:center;min-height:100vh}
-			#intro h1{font-family:"Source Sans Pro",Helvetica,sans-serif;font-weight:900;font-size:5rem;line-height:1;margin:0 0 2rem 0;color:#fff}
+			#intro h1{font-family:Helvetica,Arial,sans-serif;font-weight:900;font-size:5rem;line-height:1;margin:0 0 2rem 0;color:#fff}
 			#intro p{font-size:1.25rem;font-style:italic;margin-top:-0.25rem;text-align:center;color:#fff}
 			@media screen and (max-width:1680px){html{font-size:12pt}}
 			@media screen and (max-width:1280px){html{font-size:11pt}}
@@ -188,8 +189,8 @@
 									</header>
 									<a class="image fit">
 										<picture>
-											<source srcset="images/humn_example_web.webp" type="image/webp" sizes="(max-width: 736px) 100vw, (max-width: 1280px) 50vw, 360px">
-											<img src="images/humn_example_web.png" alt="Screenshot of Humn Behavior analytics dashboard showing consumer behavior data visualization and geographic analysis tools" loading="lazy" width="360" height="222" style="width: 100%; height: auto; max-width: 360px;"/>
+											<source srcset="images/humn_example_web.webp" type="image/webp" sizes="(max-width: 736px) 100vw, (max-width: 1280px) 48vw, 353px">
+											<img src="images/humn_example_web.png" alt="Screenshot of Humn Behavior analytics dashboard showing consumer behavior data visualization and geographic analysis tools" loading="lazy" width="967" height="595" style="width: 100%; height: auto;"/>
 										</picture>
 									</a>
 									<p>Delphinus Data is proud to partner with Humn Behavior, based in the USA,
@@ -204,8 +205,8 @@
 									</header>
 									<a class="image fit">
 										<picture>
-											<source srcset="images/public_speaking_wide_web.webp" type="image/webp" sizes="(max-width: 736px) 100vw, (max-width: 1280px) 50vw, 360px">
-											<img src="images/public_speaking_wide_web.png" alt="Dr. David Wilkinson presenting data science concepts to an audience at a professional conference, demonstrating expertise in public speaking on technical topics" loading="lazy" width="360" height="222" style="width: 100%; height: auto; max-width: 360px;"/>
+											<source srcset="images/public_speaking_wide_web.webp" type="image/webp" sizes="(max-width: 736px) 100vw, (max-width: 1280px) 48vw, 353px">
+											<img src="images/public_speaking_wide_web.png" alt="Dr. David Wilkinson presenting data science concepts to an audience at a professional conference, demonstrating expertise in public speaking on technical topics" loading="lazy" width="583" height="360" style="width: 100%; height: auto;"/>
 										</picture>
 									</a>
 									<p>Our director, Dr. David Wilkinson, has over 10 years of experience
