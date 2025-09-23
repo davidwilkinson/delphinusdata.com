@@ -42,7 +42,7 @@ This guide provides recommendations for optimizing the performance of the Delphi
 ### 2. Image Optimization
 **Current**: Unoptimized PNG files
 **Files to optimize**:
-- `images/humn_example_web.png`
+- `images/geo_example_web.png`
 - `images/public_speaking_wide_web.png`
 - `images/mymug_web.png`
 - All constellation images
